@@ -16,6 +16,7 @@ from client import diagnose
 from client.conversation import Conversation
 
 # Add jasperpath.LIB_PATH to sys.path
+
 sys.path.append(jasperpath.LIB_PATH)
 
 parser = argparse.ArgumentParser(description='Jasper Voice Control Center')
